@@ -6,5 +6,16 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: ["gatsby-plugin-sass"],
+  siteMetadata: { title: "Ojonugwa's blog" },
+  plugins: [
+    "gatsby-plugin-sass",
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "files",
+        path: `${__dirname}/src/markdown`,
+      },
+    },
+    "gatsby-transformer-remark",
+  ],
 }

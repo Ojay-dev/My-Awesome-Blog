@@ -1,0 +1,22 @@
+@import "../styles/global.scss";
+
+$footer-height: 50px;
+
+.container {
+  background-color: $color-pallete-10;
+  width: $container-width;
+  // height: $container-height;
+  position: absolute;
+  bottom: 0;
+
+  .footer {
+    margin: 0 auto;
+    max-width: $site-width;
+    height: $footer-height;
+    color: $color-pallete-4;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

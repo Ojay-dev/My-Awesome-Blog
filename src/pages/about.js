@@ -1,11 +1,12 @@
 import React from "react"
 import Layout from "../components/layout"
 import { Link } from "gatsby"
+import Title from "../components/title"
 
 export default () => {
   return (
     <Layout>
-      <h1>This is the about page</h1>
+      <Title text="About me" />
       <div>
         <Link to="/">Home</Link> | <Link to="/about">About me</Link>
       </div>
