@@ -1,0 +1,42 @@
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  .header {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 120px;
+    line-height: 146px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #32418f;
+    margin: 0;
+  }
+
+  .error-message {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    text-transform: capitalize;
+    text-align: center;
+    color: #32418f;
+    margin: 0 0 10px;
+  }
+
+  .link {
+    display: block;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #32418f;
+  }
+}
